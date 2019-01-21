@@ -1,0 +1,19 @@
+{
+  "alias": [
+    "status-board.io",
+    "status-board.com",
+    "www.status-board.io",
+    "www.status-board.com"
+  ],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ],
+  "name": "status-board.io",
+  "version": 2
+}
